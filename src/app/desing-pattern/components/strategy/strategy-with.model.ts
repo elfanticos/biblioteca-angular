@@ -34,7 +34,7 @@ export class AvengersWithStrategy {
 
   recruit(hero: Hero) {
     this.ensemble = this.ensemble
-      .filter(({ name }) => name === hero.name)
+      .filter(({ name }) => name !== hero.name)
       .concat(hero);
   }
 

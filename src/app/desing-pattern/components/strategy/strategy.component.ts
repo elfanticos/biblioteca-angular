@@ -31,7 +31,17 @@ export class StrategyComponent implements OnInit {
       'Capitan America'
     );
 
+    const iron_fish = new UnarmedHero(
+      'Iron fish'
+    );
+
+    const dark_devil = new UnarmedHero(
+      'Dark Devil'
+    );
+
     avengersWith.recruit(capitan_america);
+    avengersWith.recruit(iron_fish);
+    avengersWith.recruit(dark_devil);
     avengersWith.fight();
   }
 
