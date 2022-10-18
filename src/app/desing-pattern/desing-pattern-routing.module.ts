@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { StrategyComponent } from './components/strategy/strategy.component';
+import { MethodFactoryComponent } from './creational/method-factory/method-factory.component';
 import { DesingPatternComponent } from './desing-pattern/desing-pattern.component';
 
 const routes: Routes = [
@@ -10,7 +11,11 @@ const routes: Routes = [
     children: [
       {
         path: 'strategy',
-        component: StrategyComponent
+        component: StrategyComponent,
+      }, 
+      {
+        path: 'factory-method',
+        component : MethodFactoryComponent
       }
     ]
   }
