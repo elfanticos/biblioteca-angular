@@ -5,6 +5,7 @@ import { StrategyComponent } from './components/strategy/strategy.component';
 import { DesingPatternpRoutingModule } from './desing-pattern-routing.module';
 import { MethodFactoryComponent } from './creational/method-factory/method-factory.component';
 import { AbstractFactoryComponent } from './creational/abstract-factory/abstract-factory.component';
+import { BuilderComponent } from './creational/builder/builder.component';
 
 
 
@@ -13,7 +14,8 @@ import { AbstractFactoryComponent } from './creational/abstract-factory/abstract
     DesingPatternComponent,
     StrategyComponent,
     MethodFactoryComponent,
-    AbstractFactoryComponent
+    AbstractFactoryComponent,
+    BuilderComponent,
   ],
   imports: [
     CommonModule,

@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { StrategyComponent } from './components/strategy/strategy.component';
 import { AbstractFactoryComponent } from './creational/abstract-factory/abstract-factory.component';
+import { BuilderComponent } from './creational/builder/builder.component';
 import { MethodFactoryComponent } from './creational/method-factory/method-factory.component';
 import { DesingPatternComponent } from './desing-pattern/desing-pattern.component';
 
@@ -21,6 +22,10 @@ const routes: Routes = [
       {
         path: 'abstract-factory',
         component : AbstractFactoryComponent
+      },
+      {
+        path: 'builder',
+        component: BuilderComponent
       }
     ]
   }
