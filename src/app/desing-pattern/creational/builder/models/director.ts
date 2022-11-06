@@ -7,9 +7,9 @@ export class Director {
         this._builder = builder;
     }
 
-    constructSportsCar(builder: IBuilder): void {
-        builder
-            .reset()
+    constructSportsCar(): void {
+        this._builder
+            ?.reset()
             .setSeats(8)
             .setEngine(true)
             .setGps(true)

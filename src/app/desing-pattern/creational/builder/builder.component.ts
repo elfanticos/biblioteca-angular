@@ -15,7 +15,7 @@ export class BuilderComponent implements OnInit {
     const director = new Director();
     const builder = new CardBuilder();
     director.setBuilder(builder);
-    director.constructSportsCar(builder);
+    director.constructSportsCar();
     console.log(builder.getProducts());
   }
 
