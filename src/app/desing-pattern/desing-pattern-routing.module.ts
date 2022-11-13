@@ -8,6 +8,7 @@ import { PrototypeComponent } from './creational/prototype/prototype.component';
 import { SingletonComponent } from './structural/singleton/singleton.component';
 import { DesingPatternComponent } from './desing-pattern/desing-pattern.component';
 import { BridgeComponent } from './structural/bridge/bridge.component';
+import { DecoratorComponent } from './structural/decorator/decorator.component';
 
 const routes: Routes = [
   {
@@ -41,6 +42,10 @@ const routes: Routes = [
       {
         path: 'bridge',
         component: BridgeComponent
+      },
+      {
+        path: 'decorator',
+        component: DecoratorComponent
       }
     ]
   }

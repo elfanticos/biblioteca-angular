@@ -9,6 +9,7 @@ import { BuilderComponent } from './creational/builder/builder.component';
 import { PrototypeComponent } from './creational/prototype/prototype.component';
 import { SingletonComponent } from './structural/singleton/singleton.component';
 import { BridgeComponent } from './structural/bridge/bridge.component';
+import { DecoratorComponent } from './structural/decorator/decorator.component';
 
 
 
@@ -21,7 +22,8 @@ import { BridgeComponent } from './structural/bridge/bridge.component';
     BuilderComponent,
     PrototypeComponent,
     SingletonComponent,
-    BridgeComponent
+    BridgeComponent,
+    DecoratorComponent
   ],
   imports: [
     CommonModule,

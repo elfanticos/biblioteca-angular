@@ -7,7 +7,7 @@ import { DesingPatternModule } from './desing-pattern/desing-pattern.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
