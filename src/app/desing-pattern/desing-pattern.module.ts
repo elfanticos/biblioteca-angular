@@ -10,7 +10,7 @@ import { PrototypeComponent } from './creational/prototype/prototype.component';
 import { SingletonComponent } from './structural/singleton/singleton.component';
 import { BridgeComponent } from './structural/bridge/bridge.component';
 import { DecoratorComponent } from './structural/decorator/decorator.component';
-
+import { CompositeComponent } from './structural/composite/composite.component';
 
 
 @NgModule({
@@ -23,7 +23,8 @@ import { DecoratorComponent } from './structural/decorator/decorator.component';
     PrototypeComponent,
     SingletonComponent,
     BridgeComponent,
-    DecoratorComponent
+    DecoratorComponent,
+    CompositeComponent
   ],
   imports: [
     CommonModule,

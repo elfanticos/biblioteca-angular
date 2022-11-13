@@ -9,6 +9,7 @@ import { SingletonComponent } from './structural/singleton/singleton.component';
 import { DesingPatternComponent } from './desing-pattern/desing-pattern.component';
 import { BridgeComponent } from './structural/bridge/bridge.component';
 import { DecoratorComponent } from './structural/decorator/decorator.component';
+import { CompositeComponent } from './structural/composite/composite.component';
 
 const routes: Routes = [
   {
@@ -46,6 +47,10 @@ const routes: Routes = [
       {
         path: 'decorator',
         component: DecoratorComponent
+      },
+      {
+        path: 'composite',
+        component: CompositeComponent
       }
     ]
   }
